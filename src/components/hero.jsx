@@ -1,15 +1,17 @@
+export default function Hero() {
+  return (
 <section
   id="inicio"
   className="pt-32 pb-24 text-white relative overflow-hidden
              bg-[#090312]"
 >
-  {/* Glow laranja */}
+  
   <div className="absolute -left-32 top-20 w-80 h-80 bg-orange-500/30 rounded-full blur-[120px]" />
 
-  {/* Glow roxo */}
+ 
   <div className="absolute right-0 top-0 w-[500px] h-[500px] bg-purple-600/30 rounded-full blur-[140px]" />
 
-  {/* Glow azul */}
+
   <div className="absolute left-1/2 bottom-0 w-[400px] h-[300px] bg-blue-500/20 rounded-full blur-[120px] -translate-x-1/2" />
 
   <div className="relative max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
@@ -61,3 +63,5 @@
 
   </div>
 </section>
+  )
+}
