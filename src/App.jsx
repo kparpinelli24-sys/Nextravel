@@ -1,8 +1,8 @@
 import Header from './components/header'
 import Hero from './components/hero'
-import Benefits from './components/benefits'
-import Services from './components/services'
-import Testimonials from './components/testimonials'
+import Benefits from './components/destinos'
+import Services from './components/pacotes'
+import Testimonials from './components/clientes'
 import Footer from './components/footer'
 
 function App() {
